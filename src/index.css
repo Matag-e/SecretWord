@@ -13,8 +13,8 @@ body {
   color: white;
 }
 
-button{
-  background:#1646a0;
+button {
+  background: #1646a0;
   color: white;
   padding: 0 45px;
   border: 2px solid #fff;
@@ -27,6 +27,20 @@ button{
   transition: .4s;
 }
 
-button:hover{
+button:hover {
   background-color: #0923af;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 0 30px;
+    height: 40px;
+    font-size: 1em;
+  }
+
 }
