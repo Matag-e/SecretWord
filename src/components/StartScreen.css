@@ -6,3 +6,13 @@
     margin-bottom: 2em;
     color: #ecfa00;
 }
+
+@media (max-width: 768px) {
+    .start h1 {
+        font-size: 2.5em;
+    }
+    
+    .start p {
+        margin-bottom: 1em;
+    }
+}
